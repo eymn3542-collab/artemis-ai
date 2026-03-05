@@ -3,7 +3,7 @@ import { Send, Bot, User, Sparkles, Trash2, Plus, Menu, X, MessageSquare, Chevro
 import { motion, AnimatePresence } from 'motion/react';
 import Markdown from 'react-markdown';
 import { streamChatWithGemini, generateImageWithGemini, textToSpeech, Message } from './geminiService';
-import { cn } from './lib/utils';
+import { cn } from './utils';
 import { Volume2, Globe, Wand2, Activity } from 'lucide-react';
 
 interface Chat {
