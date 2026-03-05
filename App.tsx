@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Send, Bot, User, Sparkles, Trash2, Plus, Menu, X, MessageSquare, ChevronRight, LogOut, LogIn, Image as ImageIcon, Copy, RotateCcw, Mic, Search, Check } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import Markdown from 'react-markdown';
-import { streamChatWithGemini, generateImageWithGemini, textToSpeech, Message } from './services/geminiService';
+import { streamChatWithGemini, generateImageWithGemini, textToSpeech, Message } from './geminiService';
 import { cn } from './lib/utils';
 import { Volume2, Globe, Wand2, Activity } from 'lucide-react';
 
